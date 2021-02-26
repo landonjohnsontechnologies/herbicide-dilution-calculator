@@ -1,6 +1,4 @@
 import Green from "./ljtech-g.svg";
-import Purple from "./ljtech-p.svg";
-import Red from "./ljtech-r.svg";
 import Docs from "./components/Docs";
 import { useEffect, useState } from "react";
 
