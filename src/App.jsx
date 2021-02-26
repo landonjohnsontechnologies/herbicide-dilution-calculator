@@ -11,7 +11,7 @@ function App() {
 	const [water, setWater] = useState(1);
 	const [volumeTotal, setVolumeTotal] = useState(0);
 
-	useEffect(() => {
+	useEffect((herbicide, water, capacity, volumeTotal, dilutionFactorNumber) => {
 		if (herbicide >= 1 || water >= 1) {
 			setVolumeTotal(Number(herbicide) + Number(water));
 			setDilutionFactor(`${herbicide} / ${volumeTotal} L`);
