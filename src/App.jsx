@@ -130,6 +130,7 @@ function App() {
 				<a
 					href="https://ljtech.ca"
 					target="_blank"
+					rel="noreferrer"
 					className="flex content-center items-center justify-center transition hover:opacity-80"
 				>
 					<div>
