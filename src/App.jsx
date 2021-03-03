@@ -27,10 +27,18 @@ export default function App() {
 	return (
 		<div className="min-h-screen grid">
 			<header className="row-span-1 h-10 p-2 self-start w-full text-center font-semibold">
-				ljtech
+				<a
+					className="transition hover:opacity-80"
+					href="https://ljtech.ca"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<img className="inline-flex" src={Green} width="15" alt="logo" />{" "}
+					ljtech
+				</a>
 			</header>
 			<main>
-				<section>
+				<section className="min-h-screen">
 					<fieldset>
 						<legend className="text-center text-3xl font-black px-2 py-4 md:text-4xl lg:px-8 lg:py-16 lg:text-6xl">
 							🧪 Herbicide Dilution Calculator
@@ -191,6 +199,9 @@ export default function App() {
 							</div>
 						</div>
 					</fieldset>
+				</section>
+				<section className="min-h-screen">
+					<Docs />
 				</section>
 			</main>
 			<footer className="row-span-1 h-10 p-2 self-end w-full text-center font-semibold">
