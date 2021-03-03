@@ -36,8 +36,8 @@ export default function App() {
 					ljtech
 				</a>
 			</header>
-			<main>
-				<section className="min-h-screen">
+			<main className="row-span-6">
+				<section>
 					<fieldset>
 						<legend className="text-center text-3xl font-black px-2 py-4 md:text-4xl lg:px-8 lg:py-16 lg:text-6xl">
 							🧪 Herbicide Dilution Calculator
