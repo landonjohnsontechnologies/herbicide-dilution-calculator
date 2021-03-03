@@ -1,5 +1,4 @@
 import Green from "./ljtech-g.svg";
-import Docs from "./components/Docs";
 import { useEffect, useState } from "react";
 
 export default function App() {
@@ -199,9 +198,6 @@ export default function App() {
 							</div>
 						</div>
 					</fieldset>
-				</section>
-				<section className="min-h-screen">
-					<Docs />
 				</section>
 			</main>
 			<footer className="row-span-1 h-10 p-2 self-end w-full text-center font-semibold">
