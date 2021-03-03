@@ -78,7 +78,7 @@ export default function App() {
 												</em>
 												<hr className="my-2" />
 												Enter these values as well as your chosen sprayers
-												current capacity into the inputs fields provided.
+												current capacity into the input fields provided.
 											</p>
 											<div className="m-2 md:mx-8">
 												<div className="text-xl py-3">
